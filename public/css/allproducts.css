@@ -1,0 +1,107 @@
+#allproducts {
+  width: 100%;
+  min-height: 500px;
+}
+#allproducts .con .index {
+  margin: 20px 0;
+}
+#allproducts .con .index span {
+  font-size: 14px;
+}
+#allproducts .con .index i {
+  font-size: 12px;
+}
+#allproducts .con .goodslist {
+  width: 100%;
+  display: flex;
+}
+#allproducts .con .goodslist .leftlist {
+  width: 292px;
+}
+#allproducts .con .goodslist .leftlist div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+#allproducts .con .goodslist .leftlist div i {
+  font-weight: bold !important;
+  font-size: 16px !important;
+}
+#allproducts .con .goodslist .rightlist {
+  width: 1068px;
+  padding-left: 44px;
+  display: flex;
+}
+#allproducts .con .goodslist .rightlist .rightlist-top {
+  margin: 0 0 20px;
+}
+#allproducts .con .goodslist .rightlist .rightlist-top .selection {
+  width: 238px;
+  height: 40px;
+  padding: 10px 0 10px 10px;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+}
+#allproducts .con .goodslist .rightlist .right-goods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#allproducts .con .goodslist .rightlist .right-goods .goods {
+  width: 320px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+#allproducts .con .goodslist .rightlist .right-goods .goods a {
+  display: inline-block;
+  width: 320px;
+  height: 400px;
+  margin-bottom: 5px;
+}
+#allproducts .con .goodslist .rightlist .right-goods .goods a img {
+  width: 320px;
+  height: 400px;
+  transition: all 0.5s;
+}
+#allproducts .con .goodslist .rightlist .right-goods .goods .fast-browse {
+  background: #00397e;
+  width: 320px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  position: absolute;
+  bottom: 90px;
+  left: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.8s;
+}
+#allproducts .con .goodslist .rightlist .right-goods .goods .good-crad_title span {
+  color: #010101;
+}
+#allproducts .con .goodslist .rightlist .right-goods .goods .good-pricie {
+  display: flex;
+  justify-content: space-between;
+}
+#allproducts .con .goodslist .rightlist .right-goods .goods .good-pricie span:nth-of-type(1) {
+  font-weight: bold;
+}
+#allproducts .con .goodslist .rightlist .right-goods .goods .good-pricie span:nth-of-type(2) {
+  font-size: 18px;
+}
+#allproducts .con .goodslist .rightlist .right-goods div:hover .fast-browse {
+  opacity: 1;
+}
+#allproducts .con .goodslist .rightlist .right-goods div:hover img {
+  transform: scale(0.96);
+}
+#allproducts .con .goodslist .rightlist .right-goods div:hover a {
+  border: 2px solid #333;
+}

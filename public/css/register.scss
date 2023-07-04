@@ -1,0 +1,214 @@
+#login {
+    width: 100%;
+    min-height: 600px;
+    .con{
+        display: flex;
+        justify-content: center;
+        .loginlist{
+            width: 500px;
+            margin-top: 40px;
+            ul{
+                display: flex;
+                margin: 20px 0;
+                li{
+                    width: 250px;
+                    text-align: center;
+                    a{
+                        padding: 5px 0px;
+                        font-size: 20px;
+                    }
+
+                    .isAlive{
+                        color: #cb0025;
+                        border-bottom: #cb0025 solid 2px;
+                        font-weight: bold;
+                    }
+                    .noAlive{
+                        color: #999999;
+                    }
+
+                }
+             
+
+    
+            }
+            .form{
+                .username{
+                    width: 500px;
+                    height: 46px;
+                    border: 1px solid #333;
+                    margin-bottom: 20px;
+                    input{
+                        width: 100%;
+                        height: 100%;
+                        text-indent: 5px;
+                    }
+                }
+                .code {
+                    width: 500px;
+                    height: 46px;
+                    margin-bottom: 20px;
+                    display: flex;
+
+                    .code-inp {
+                        width: 300px;
+                        height: 46px;
+                        border: 1px solid #333;
+
+                        input {
+                            height: 100%;
+                            text-indent: 5px;
+                        }
+                    }
+
+                    .code-img {
+                        width: 200px;
+                        height: 46px;
+                        display: flex;
+                        justify-content: space-between;
+                        cursor: pointer;
+
+                        img {
+                            width: 80px;
+                            height: 38px;
+                        }
+
+                        span {
+                            display: inline-block;
+                            width: 80px;
+                            height: 38px;
+                            text-align: center;
+                        }
+
+                    }
+
+
+                  
+                }
+
+                .code-sms {
+                    width: 500px;
+                    height: 46px;
+                    margin-bottom: 20px;
+                    display: flex;
+                    .sms-inp {
+                        width: 300px;
+                        height: 46px;
+                        border: 1px solid #333;
+
+                        input {
+                            height: 100%;
+                            text-indent: 5px;
+                        }
+                    }
+
+                    .verification {
+                        width: 200px;
+                        height: 46px;
+                        text-align: center;
+                        line-height: 46px;
+                        background-color: #010101;
+                        color: #fff;
+                        font-size: 16px;
+                        cursor: pointer;
+
+                    }
+
+
+                }
+
+                .psw {
+                    width: 500px;
+                    height: 46px;
+                    border: 1px solid #333;
+                    input{
+                        width: 100%;
+                        height: 100%;
+                        text-indent: 5px;
+                    }
+                }
+
+            }
+
+            .forgetpsw{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                & div:nth-of-type(1){
+                    width: 100px;
+                }
+
+                & div:nth-of-type(2){
+                    width: 150px;
+                    display: flex;
+                    justify-content: end;
+                    span{
+                        font-size: 16px;
+                        color: #114686;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .login-registration{
+                width: 100%;
+                display: flex;
+                margin-top: 10px;
+                cursor: pointer;
+                .registr{
+                    width: 50%;
+                    height: 42px;
+                    display: flex;
+                    justify-content: center;
+                    background-color: #c51333;
+                    button{
+                        background-color: #c51333;
+                        border: none;
+                       
+                    }
+                    
+                }
+                .login {
+                    width: 50%;
+                    height: 42px;
+                    display: flex;
+                    justify-content: center;
+                    background-color: #010101;
+                    button{
+                        background-color: #010101;;
+                        border: none;
+                       
+                    }
+                }
+
+                span{
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+
+            .trust-list{
+                margin-top: 50px;
+                span{
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+
+                a{
+                    margin-left: 5px;
+                   i{
+                    font-size: 22px;
+                   }
+                }
+
+                & a:hover i {
+                    color: #cb0025;
+                }
+            }
+        }
+    }
+}
+
+
+
+

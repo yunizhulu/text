@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dickies官方网站</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/xiding.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="../../node_modules/layui-layer/dist/layer.js"></script>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <header>
+        <div class="con">
+            <div class="header-bar">
+                <!-- 顶部导航 -->
+                <div class="header-bar_nav">
+                    <div class="fl"></div>
+                    <div class="fr">
+
+                        <div class="loginbox">
+                            <a href="/html/register.html" class="denglu">登录</a> /
+                            <a href="/html/login.html" class="zhuce">注册</a>
+                            <a href="#"><img src="../img/topbar-member.png"></a>
+                        </div>
+
+                        <div><a href="https://www.dickies.com.cn/store">门店查询</a></div>
+
+                        <div><a href="#">在线客服</a>
+                            <a href="#"><img src="../img/topbar-link.png"></a>
+                        </div>
+                        <div id="cart-button">
+                            <a href="javascript:;">购物车</a>
+                            <a href="javascript:;"><img src="../img/gwc.png"></a>
+                            <span id="cartsGoodsNum">0</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="logo">
+                    <a href="javascript:;"><img src="../img/logo.png" class="logo-img"></a>
+                </div>
+                <div class="contain">
+                    <ul>
+                        <li><a href="/html/allproducts.html">全部商品</a></li>
+                        <li>低至四折</li>
+                        <li>新品</li>
+                        <li>女装</li>
+                        <li>男装</li>
+                        <li>情侣款</li>
+                        <li>配件</li>
+                        <li>童装</li>
+                        <li>品牌动态</li>
+                    </ul>
+                    <div>
+                        <input type="text" placeholder="搜索Dickies">
+                        <i><img src="../img/sousuo.png"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </header>
+    <!-- banner图 -->
+    <div id="banner">
+        <div class="con">
+            <div class="big-banner">
+                <div><img src="../img/lunbo.jpg"></div>
+                <div><img src="../img/1.jpg"></div>
+                <div><img src="../img/lunbo.jpg"></div>
+                <div><img src="../img/1.jpg"></div>
+                <div><img src="../img/lunbo.jpg"></div>
+                <i class="iconfont icon-xiangzuojiantou leftbtn"></i>
+                <i class="iconfont icon-xiangyoujiantou rightbtn"></i>
+            </div>
+
+
+            <div class="small-banner">
+                <div>
+                    <a href="#"><img src="../img/2.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="../img/3.jpg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 新品推荐 -->
+    <div id="newgoods">
+        <div class="con">
+            <div class="recommend">
+                <h3>新品推荐</h3>
+            </div>
+            <div class="man-or-woman">
+                <span><a href="javascript:" class="nan_btn active">男装</a>/ <a href="javascript:;"
+                        class="nv_btn">女装</a></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 商品列表男装 -->
+    <div id="goodslist" class="nanzhuang">
+        <div class="con">
+            <div class="man-list">
+                <div>
+                    <a href="#">
+                        <img src="../img/recommend-pic.jpg">
+                        <p>Dickies 大LOGO印花短T</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="../img/recommend-pic (1).jpg" alt="">
+                        <p>Dickies多袋工装短裤</p>
+                    </a>
+
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="../img/recommend-pic (2).jpg" alt="">
+                        <p>Dickies商场同款</p>
+                    </a>
+
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="../img/recommend-pic (3).jpg" alt="">
+                        <p>23春夏工装风</p>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="leftJt">
+            <img src="../img/left.png" alt="">
+        </div>
+
+        <div class="rightJt">
+            <img src="../img/right.png" alt="">
+        </div>
+    </div>
+
+     <!-- 商品列表女装 -->
+    <div id="goodslist" style="display: none;" class="nvzhuang">
+        <div class="con">
+            <div class="man-list">
+                <div>
+                    <a href="#">
+                        <img
+                            src="https://img2.dickies.com.cn/images/70/1e/6e/7c0d1e3d642500a2a3e8266e48856f4f3a895714.jpg_s.jpg">
+                        <p>23夏日风情背部印花短袖T恤</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="https://img3.dickies.com.cn/images/84/1c/9e/d1d0aed35b86fd412ffdb8e5191b94a46b0e87be.jpg_s.jpg"
+                            alt="">
+                        <p>23春夏复古字母印花短袖T恤</p>
+                    </a>
+
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="https://img2.dickies.com.cn/images/65/c0/a5/8ebe61d94e1d2c3f835db93532ebf5954ac71114.jpg_s.jpg" alt="">
+                        <p>23春夏炫彩Logo印花休闲短袖T恤</p>
+                    </a>
+
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="https://img2.dickies.com.cn/images/9f/0c/93/4dd3102c8159949601812c9b05efdf735ff78a65.jpg_s.jpg" alt="">
+                        <p>23春夏马卡龙配色 休闲短袖T恤</p>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="leftJt">
+            <img src="../img/left.png" alt="">
+        </div>
+
+        <div class="rightJt">
+            <img src="../img/right.png" alt="">
+        </div>
+    </div>
+    <!-- banner图2 -->
+    <div id="banner2">
+        <div class="big-banner2">
+            <a href="#"><img src="../img/4.jpg" alt=""></a>
+        </div>
+        <div class="small-banner2">
+            <div>
+                <a href="#">
+                    <img src="../img/5.jpg" alt="">
+                </a>
+            </div>
+
+            <div>
+                <a href="#">
+                    <img src="../img/6.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="../img/7.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="../img/8.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 品牌动态 -->
+    <div id="brand-dynamics">
+        <div class="con">
+            <div class="dongtai">
+                <h3>品牌动态</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- 品牌动态 -->
+    <div id="brands">
+        <div class="con">
+            <ul class="brands_list">
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="../img/9.jpg" alt="">
+                        </div>
+                        <p>Dickies X new era合作款</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="../img/10.png" alt="">
+                        </div>
+                        <p>为城市打上绚烂的补丁</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="../img/11.jpg" alt="">
+                        </div>
+                        <p>一秒"爷青回"</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="../img/12.jpg" alt="">
+                        </div>
+                        <p>哎哟，我可真是越老越Fashion!</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="../img/13.png" alt="">
+                        </div>
+                        <p>你的flag还飘着吗？</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <footer>
+        <div class="con">
+            <div class="footer_logo">
+                <a href="javascript:;">
+                    <img src="../img/logo.png" alt="" class="logo-img">
+                </a>
+            </div>
+
+            <div class="list">
+                <ul class="fl_box">
+                    <li>
+                        <span style="font-size: 16px;">在线客服<img src="../img/service.png"
+                                style="margin-left: 3px;"></span>
+                        <span style="margin-bottom: 5px;">在线时间09:00-22:00</span>
+                        <span>地址：上海市静安区南京西路688号688广场27楼</span>
+                    </li>
+
+                    <li>
+                        <span style="font-size: 16px;">官方商城</span>
+                        <a href="#">全部商品</a>
+                        <a href="#">新品</a>
+                        <a href="#">男装</a>
+                        <a href="#">女装</a>
+                        <a href="#">鞋类</a>
+                        <a href="#">配件</a>
+                    </li>
+
+
+                    <li>
+                        <span style="font-size: 16px;">关于Dickies</span>
+                        <a href="#">品牌故事</a>
+                        <a href="#">品牌动态</a>
+                    </li>
+
+                    <li>
+                        <span style="font-size: 16px;">客户服务</span>
+                        <a href="#">订购流程</a>
+                        <a href="#">如何注册</a>
+                        <a href="#">常见问题</a>
+                        <a href="#">联系我们</a>
+                    </li>
+
+                    <li>
+                        <span style="font-size: 16px;">关注我们</span>
+                        <div>
+                            <a href="#"><img src="../img/weibo.png" alt=""></a>
+                            <a href="#"><img src="../img/weixin.png" alt=""></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部版权栏 -->
+    <div id="copyright">
+        <div class="con">
+            <div class="fl-box">
+                <p>沪ICP备2022009199号 ©2019 Williamson-Dickie Mfg. Co., LLC. Quality Workwear Since 1922</p>
+                <p>沪公网安备 31010602006778号
+                    <a href="#">
+                        <img src="../img/police.png" alt="">
+                    </a>
+                </p>
+            </div>
+
+            <div class="rt-box">
+                <a href="#">营业执照</a>
+                <a href="#">隐私政策</a>
+                <a href="#">使用条款</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 右下角固定导航 -->
+    <div id="regular">
+        <a href="#">
+            <i class="iconfont icon-zaixiankefucustomerservice"></i>
+            <p>在线客服</p>
+        </a>
+
+        <a href="#">
+            <i class="iconfont icon-changjianwentixiangguanwenti
+            "></i>
+            <p>常见问题</p>
+        </a>
+        <a href="javascript:;" id="back-top">
+            <i class="iconfont icon-xiangshangjiantou
+            "></i>
+        </a>
+    </div>
+    <!-- 吸顶导航 -->
+    <div class="xiding">
+        <div class="logo">
+            <img src="../img/logo.png" alt="">
+        </div>
+
+        <div class="con">
+            <ul>
+                <li><a href="/html/allproducts.html">全部商品</a></li>
+                <li>低至四折</li>
+                <li>新品</li>
+                <li>女装</li>
+                <li>男装</li>
+                <li>情侣款</li>
+                <li>配件</li>
+                <li>童装</li>
+                <li>品牌动态</li>
+            </ul>
+            <div>
+                <input type="text" placeholder="搜索Dickies">
+                <i><img src="../img/sousuo.png"></i>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../js/xiding.js"></script>
+<script src="../js/utils.js"> </script>
+<script src="../js/coockie.js"></script>
+<script src="../js/move.js"></script>
+<script src="../js/isLogin.js"></script>
+<script src="../js/public.js"></script>
+
+<script>
+    var nanzhuang = document.querySelector('.nanzhuang')
+    var nvzhuang = document.querySelector('.nvzhuang')
+    var nan_btn = document.querySelector('.nan_btn')
+    var nv_btn = document.querySelector('.nv_btn')
+    var tabs = [{
+            button: nan_btn,
+            content: nanzhuang
+        },
+        {
+            button: nv_btn,
+            content: nvzhuang
+        }
+    ]
+    tabs.forEach(function (tab) {
+        tab.button.addEventListener('click', function () {
+            tabs.forEach(function (item) {
+                item.content.style.display = 'none'
+                item.button.classList.remove('active')
+            })
+
+            tab.content.style.display = 'block'
+            tab.button.classList.add('active')
+        })
+    })
+</script>
+
+</html>

@@ -1,0 +1,31 @@
+.leftbox{
+    position: relative;
+}
+
+.leftbox .mengbanceng {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    cursor:move;
+}
+
+
+.rightbox {
+    width: 336px;
+    height: 336px;
+    position: absolute;
+    left: 670px;
+    top: 185px;
+    display: none;
+    z-index: 2;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.rightbox img {
+    position: absolute;
+}

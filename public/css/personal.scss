@@ -1,0 +1,141 @@
+#personal {
+    width: 100%;
+    min-height: 800px;
+    .con {
+        .page-order__b {
+            padding-top: 60px;
+
+            .left {
+                float: left;
+                width: 230px;
+
+                .sp-smenu {
+                    width: 170px;
+                    text-align: center;
+
+                    li {
+                        margin-bottom: 15px;
+
+                        a {
+                            padding: 2px;
+                            font-size: 16px;
+                            color: #999999;
+                        }
+
+
+                    }
+
+                    .active a {
+                        color: #010101;
+                        border-bottom: 2px solid #010101;
+                    }
+
+
+                }
+            }
+
+            .right {
+                float: left;
+                width: calc(100% - 230px);
+
+                .h-title {
+                    font-size: 16px;
+                    background: #e5e5e5;
+                    padding: 10px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+
+                .profile-container {
+                    margin-bottom: 50px;
+                    width: 690px;
+
+                    .form {
+                        margin: 0 auto;
+
+                        .form-item {
+                            margin-bottom: 24px;
+                            position: relative;
+
+                            .other-account-info {
+                                .account {
+                                    margin: 0 10px;
+                                    min-width: 100px;
+                                    display: inline-block;
+                                }
+
+                                .icon-weixin{
+                                    color: #4fc000;
+                                }
+                                .icon-weibo{
+                                    color: #ea5a59;;
+                                }
+                                .icon-qq {
+                                    color: #68a6e1;
+                                }
+                            }
+                        }
+
+                        .btn-warp {
+                            .btn-c {
+                                width: 27%;
+                                float: left;
+
+                                .sp-btn__long {
+                                    width: 100%;
+                                }
+                                .sp-btn {
+                                    display: inline-block;
+                                    margin-bottom: 0;
+                                    font-weight: 400;
+                                    text-align: center;
+                                    vertical-align: middle;;
+                                    touch-action: manipulation;
+                                    cursor: pointer;
+                                    border: 1px solid rgba(0, 0, 0, 0);
+                                    padding: 5px 15px 6px;
+                                    font-size: 14px;
+                                }
+
+                                .sp-btn__long {
+                                    color: #fff;
+                                    border-color: #c51333;
+                                    background: #c51333;
+                                }
+
+                                .sp-btn__large {
+                                    padding: 10px 28px;
+                                }
+
+                                .sp-btn__primary {
+                                    color: #fff;
+                                    border-color: #010101;
+                                    background: #010101;
+                                }
+                         
+
+                    
+                            }
+                        }
+
+                        .sp-input__input{
+                            display: inline-block;
+                            padding: 10px;
+                            border: 1px solid #010101;
+                            position: relative;
+                            font-size: 14px;
+                            height: 46px;
+                            width: 100%;
+                            border-radius: 0;
+                            box-sizing: border-box;
+                            caret-color: #010101
+                        }
+                    }
+                }
+
+               
+
+            }
+        }
+    }
+}

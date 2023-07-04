@@ -1,0 +1,223 @@
+#login {
+    width: 100%;
+   min-height: 650px; 
+    padding-bottom: 10px;
+    .con {
+        display: flex;
+        justify-content: center;
+
+        .loginlist {
+            width: 500px;
+            margin-top: 40px;
+
+            .user_login {
+                margin: 30px 0 30px 0;
+                text-align: center;
+
+                span {
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+            }
+
+            .form {
+                .username {
+                    width: 500px;
+                    height: 46px;
+                    border: 1px solid #333;
+                    margin-bottom: 20px;
+
+                    input {
+                        width: 100%;
+                        height: 100%;
+                        text-indent: 5px;
+                    }
+                }
+
+                .psw {
+                    width: 500px;
+                    height: 46px;
+                    margin-bottom: 20px;
+                    border: 1px solid #333;
+
+                    input {
+                        width: 100%;
+                        height: 100%;
+                        text-indent: 5px;
+                    }
+                }
+
+                .code {
+                    width: 500px;
+                    height: 46px;
+                    margin-bottom: 20px;
+                    display: flex;
+
+                    .code-inp {
+                        width: 300px;
+                        height: 46px;
+                        border: 1px solid #333;
+
+                        input {
+                            height: 100%;
+                            text-indent: 5px;
+                        }
+                    }
+
+                    .code-img {
+                        width: 200px;
+                        height: 46px;
+                        display: flex;
+                        justify-content: space-between;
+                        cursor: pointer;
+
+                        img {
+                            width: 80px;
+                            height: 38px;
+                        }
+
+                        span {
+                            display: inline-block;
+                            width: 80px;
+                            height: 38px;
+                            text-align: center;
+                        }
+
+                    }
+
+                }
+
+                .code-sms {
+                    width: 500px;
+                    height: 46px;
+                    margin-bottom: 20px;
+                    display: flex;
+
+                    .sms-inp {
+                        width: 300px;
+                        height: 46px;
+                        border: 1px solid #333;
+
+                        input {
+                            height: 100%;
+                            text-indent: 5px;
+                        }
+                    }
+
+                    .verification {
+                        width: 200px;
+                        height: 46px;
+                        text-align: center;
+                        line-height: 46px;
+                        background-color: #010101;
+                        color: #fff;
+                        font-size: 16px;
+                        cursor: pointer;
+
+                    }
+
+
+                }
+
+                .privacy {
+                    div {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 20px;
+
+                        input {
+                            display: inline-block;
+                            width: 16px;
+                            height: 16px;
+                            margin-right: 5px;
+                        }
+
+                        span {
+                            a {
+                                color: #095bf4;
+                            }
+                        }
+                    }
+
+                }
+
+                .btn-login {
+                    width: 500px;
+                    height: 42px;
+                    background-color: #c51333;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+
+                    button {
+                        background-color: #c51333;
+                        border: none;
+
+                        span {
+                            color: #fff;
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .is-disabled {
+                    opacity: .3;
+                    cursor: not-allowed;
+                }
+
+            }
+
+            .register-form {
+                .form-group {
+                    margin-top: 20px;
+                    position: relative;
+                    .login-div {
+
+                        .loginbtn {
+                            display: block;
+                            background-color: #c51333;
+                            width: 500px;
+                            color: #fff;
+                        }
+
+
+                        .is-disabled {
+                            opacity: .3;
+                            cursor: not-allowed;
+                        }
+
+                    }
+                    .checkbox{
+                        label{
+                            span{
+                                font-size: 14px;
+                                a{
+                                    color: #095bf4;
+                                    margin-right: 2px;
+                                }
+                            }
+                        }
+                    }
+                    & ::placeholder {
+                        font-size: 12px;
+                    }
+
+                    #username-error,#password-error, #repass-error ,#tel-error, #email-error  {
+                        position: absolute;
+                        width: 150px;
+                        right: -150px;
+                        top: 10px;
+                        padding-left: 10px;
+                        color: #c51333;
+                        font-size: 12px;
+                      
+                    }
+
+                }
+            }
+
+
+        }
+    }
+}

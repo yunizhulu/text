@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dickies</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/shoppingcart.css">
+    <link rel="stylesheet" href="../css/xiding.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+</head>
+<body>
+    <!-- 顶部 -->
+    <header>
+        <div class="con">
+            <div class="header-bar">
+                <!-- 顶部导航 -->
+                <div class="header-bar_nav">
+                    <div class="fl"></div>
+                    <div class="fr">
+                        <div class="loginbox"><a href="register.html" class="denglu">登录</a> / 
+                            <a href="login.html" class="zhuce">注册</a> 
+                            <a href="#"><img src="../img/topbar-member.png"></a>
+                        </div>
+                        <div><a href="#">门店查询</a></div>
+                        <div>
+                            <a href="#">在线客服</a>
+                            <a href="#"><img src="../img/topbar-link.png"></a>
+                        </div>
+                        <div>
+                            <a href="javascript:;">购物车</a>
+                            <a href="javascript:;"><img src="../img/gwc.png"></a>
+                            <span id="cartsGoodsNum">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 顶部logo -->
+                <div class="logo">
+                    <a href="/index.html"><img src="../img/logo.png" class="logo-img"></a>
+                </div>
+
+                <div class="contain">
+                    <ul>
+                        <li><a href="allproducts.html">全部商品</a></li>
+                        <li>低至四折</li>
+                        <li>新品</li>
+                        <li>女装</li>
+                        <li>男装</li>
+                        <li>情侣款</li>
+                        <li>配件</li>
+                        <li>童装</li>
+                        <li>品牌动态</li>
+                    </ul>
+                    <div>
+                        <input type="text" placeholder="搜索Dickies">
+                        <i><img src="../img/sousuo.png"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </header>
+
+    <!-- 购物车 -->
+    <div id="page-cart">
+       <div class="con">
+         <div class="cart-list__title">购物车</div>
+            <!-- 购物车顶部 -->
+            <div class="top_top">
+                <div class="cart-list">
+                    <div class="t-header">
+                        <div class="t-checkbox">
+                            <input type="checkbox" name="quan" >
+                            <div class="sp-radio__text" >全选</div>
+                        </div>
+    
+                        <div class="t-goods">已选择的商品</div>
+                        <div class="t-action txt-center">操作</div>
+                        <div class="t-quantity txt-center">数量</div>
+                        <div class="t-price txt-center">价格</div>
+                        <div class="t-coupon txt-center">优惠</div>
+                        <div class="t-total txt-center">总计</div>
+                    </div>
+                
+                 </div>
+            </div>
+            <!-- 购物车内容 -->
+            <div class="cart_main">
+                <div class="cart_body" id="cartItems">
+                    <!-- 一个商品 -->
+                </div>
+            </div>
+
+            <!-- 结算部分 -->
+            <div class="check-f">
+                 <div class="container">
+                    <!-- 商品金额 -->
+                    <div class="checkout-total">
+
+                        <div class="checkout-total__r">
+
+                            <div class="checkout-total__label">商品金额</div> 
+
+                            <div class="checkout-total__value">
+                                <span class="checkout-total__p sp-price">
+                                    <span class="price__symbol">¥</span> 
+                                    <span class="price__int">0</span> 
+                                    <span class="price__decimal">.00</span> 
+                                </span>
+                            </div>
+
+                        </div> 
+
+                        <div class="checkout-total__r">
+                            <div class="checkout-total__label">优惠金额</div> 
+                            <div class="checkout-total__value">
+                                <span class="checkout-total__p sp-price">
+                                    <span class="price__symbol">¥</span> 
+                                    <span class="price__int">0</span> 
+                                    <span class="price__decimal">.00</span>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 总金额 -->
+                    <div class="checkout-total__r">
+                        <div class="checkout-total__label">总金额</div>
+                        <div class="checkout-total__value">
+                            <span class="checkout-total__pt sp-price">
+                                <span class="price__symbol">¥</span> 
+                                    <span class="price__int">0</span> 
+                                    <span class="price__decimal">.00</span>
+                                </span>
+                        </div>
+                    </div>
+
+                    <!-- 继续购物 立即结算 -->
+                    <div class="g-btn">
+                        <button class="g-btn__btn sp-btn__text">
+                            <span class="sp-btn__txt" style="cursor:pointer ;">&lt;&lt; <a href="allproducts.html">继续购物</a></span>
+                        </button>
+                        <button class="g-btn__checkbtn sp-btn sp-btn__warning is-disabled sp-btn__large">
+                            <span class="sp-btn__txt">立即结算</span>
+                        </button>
+                    </div>
+
+                 </div>            
+            </div>
+       </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer>
+        <div class="con">
+            <div class="footer_logo">
+                <a href="../index.html">
+                    <img src="../img/logo.png" alt="" class="logo-img">
+                </a>
+            </div>
+
+            <div class="list">
+                <ul class="fl_box">
+                    <li>
+                        <span style="font-size: 16px;">在线客服<img src="../img/service.png" style="margin-left: 3px;"></span>
+                        <span style="margin-bottom: 5px;">在线时间09:00-22:00</span>
+                        <span>地址：上海市静安区南京西路688号688广场27楼</span>
+                    </li>
+
+                    <li>
+                        <span style="font-size: 16px;">官方商城</span>
+                        <a href="#">全部商品</a>
+                        <a href="#">新品</a>
+                        <a href="#">男装</a>
+                        <a href="#">女装</a>
+                        <a href="#">鞋类</a>
+                        <a href="#">配件</a>
+                    </li>
+
+
+                    <li>
+                        <span style="font-size: 16px;">关于Dickies</span>
+                        <a href="#">品牌故事</a>
+                        <a href="#">品牌动态</a>
+                    </li>
+
+                    <li>
+                        <span style="font-size: 16px;">客户服务</span>
+                        <a href="#">订购流程</a>
+                        <a href="#">如何注册</a>
+                        <a href="#">常见问题</a>
+                        <a href="#">联系我们</a>
+                    </li>
+
+                    <li>
+                        <span style="font-size: 16px;">关注我们</span>
+                       <div>
+                        <a href="#"><img src="../img/weibo.png" alt=""></a>
+                        <a href="#"><img src="../img/weixin.png" alt=""></a>
+                       </div>
+                    </li>
+                </ul>    
+            </div>
+        </div>
+    </footer>
+    
+    <!-- 底部版权栏 -->
+    <div id="copyright">
+        <div class="con">
+            <div class="fl-box">
+                <p>沪ICP备2022009199号 ©2019 Williamson-Dickie Mfg. Co., LLC. Quality Workwear Since 1922</p>
+                <p>沪公网安备 31010602006778号 
+                   <a href="#">
+                    <img src="../img/police.png" alt="">
+                   </a>
+                </p>
+            </div>
+
+            <div class="rt-box">
+                <a href="#">营业执照</a>
+                <a href="#">隐私政策</a>
+                <a href="#">使用条款</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 右下角固定导航 -->
+    <div id="regular">
+        <a href="#">
+            <i class="iconfont icon-zaixiankefucustomerservice"></i>
+            <p>在线客服</p>
+        </a>
+
+        <a href="#">
+            <i class="iconfont icon-changjianwentixiangguanwenti
+            "></i>
+            <p>常见问题</p>
+        </a>
+        <a href="javascript:;" id="back-top">
+            <i class="iconfont icon-xiangshangjiantou
+            "></i>
+        </a>
+    </div>
+
+    <!-- 吸顶导航 -->
+    <div class="xiding">
+            <div class="logo">
+                <a href="/index.html"><img src="../img/logo.png"></a>
+            </div>
+    
+            <div class="con">
+                <ul>
+                    <li><a href="allproducts.html">全部商品</a></li>
+                    <li>低至四折</li>
+                    <li>新品</li>
+                    <li>女装</li>
+                    <li>男装</li>
+                    <li>情侣款</li>
+                    <li>配件</li>
+                    <li>童装</li>
+                    <li>品牌动态</li>
+                </ul>
+                <div>
+                    <input type="text" placeholder="搜索Dickies">
+                    <i><img src="../img/sousuo.png"></i>
+                </div>
+            </div>
+    </div>
+</body>
+
+<script src="../js/xiding.js"></script>
+<script src="../js/gwc.js"></script>
+<script src="../js/coockie.js"></script>
+<script src="../js/public.js"></script>
+
+</html>

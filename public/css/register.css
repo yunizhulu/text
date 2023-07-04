@@ -1,0 +1,176 @@
+#login {
+  width: 100%;
+  min-height: 600px;
+}
+#login .con {
+  display: flex;
+  justify-content: center;
+}
+#login .con .loginlist {
+  width: 500px;
+  margin-top: 40px;
+}
+#login .con .loginlist ul {
+  display: flex;
+  margin: 20px 0;
+}
+#login .con .loginlist ul li {
+  width: 250px;
+  text-align: center;
+}
+#login .con .loginlist ul li a {
+  padding: 5px 0px;
+  font-size: 20px;
+}
+#login .con .loginlist ul li .isAlive {
+  color: #cb0025;
+  border-bottom: #cb0025 solid 2px;
+  font-weight: bold;
+}
+#login .con .loginlist ul li .noAlive {
+  color: #999999;
+}
+#login .con .loginlist .form .username {
+  width: 500px;
+  height: 46px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+}
+#login .con .loginlist .form .username input {
+  width: 100%;
+  height: 100%;
+  text-indent: 5px;
+}
+#login .con .loginlist .form .code {
+  width: 500px;
+  height: 46px;
+  margin-bottom: 20px;
+  display: flex;
+}
+#login .con .loginlist .form .code .code-inp {
+  width: 300px;
+  height: 46px;
+  border: 1px solid #333;
+}
+#login .con .loginlist .form .code .code-inp input {
+  height: 100%;
+  text-indent: 5px;
+}
+#login .con .loginlist .form .code .code-img {
+  width: 200px;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+#login .con .loginlist .form .code .code-img img {
+  width: 80px;
+  height: 38px;
+}
+#login .con .loginlist .form .code .code-img span {
+  display: inline-block;
+  width: 80px;
+  height: 38px;
+  text-align: center;
+}
+#login .con .loginlist .form .code-sms {
+  width: 500px;
+  height: 46px;
+  margin-bottom: 20px;
+  display: flex;
+}
+#login .con .loginlist .form .code-sms .sms-inp {
+  width: 300px;
+  height: 46px;
+  border: 1px solid #333;
+}
+#login .con .loginlist .form .code-sms .sms-inp input {
+  height: 100%;
+  text-indent: 5px;
+}
+#login .con .loginlist .form .code-sms .verification {
+  width: 200px;
+  height: 46px;
+  text-align: center;
+  line-height: 46px;
+  background-color: #010101;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+#login .con .loginlist .form .psw {
+  width: 500px;
+  height: 46px;
+  border: 1px solid #333;
+}
+#login .con .loginlist .form .psw input {
+  width: 100%;
+  height: 100%;
+  text-indent: 5px;
+}
+#login .con .loginlist .forgetpsw {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#login .con .loginlist .forgetpsw div:nth-of-type(1) {
+  width: 100px;
+}
+#login .con .loginlist .forgetpsw div:nth-of-type(2) {
+  width: 150px;
+  display: flex;
+  justify-content: end;
+}
+#login .con .loginlist .forgetpsw div:nth-of-type(2) span {
+  font-size: 16px;
+  color: #114686;
+  cursor: pointer;
+}
+#login .con .loginlist .login-registration {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#login .con .loginlist .login-registration .registr {
+  width: 50%;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  background-color: #c51333;
+}
+#login .con .loginlist .login-registration .registr button {
+  background-color: #c51333;
+  border: none;
+}
+#login .con .loginlist .login-registration .login {
+  width: 50%;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  background-color: #010101;
+}
+#login .con .loginlist .login-registration .login button {
+  background-color: #010101;
+  border: none;
+}
+#login .con .loginlist .login-registration span {
+  color: #fff;
+  cursor: pointer;
+}
+#login .con .loginlist .trust-list {
+  margin-top: 50px;
+}
+#login .con .loginlist .trust-list span {
+  font-size: 16px;
+  font-weight: bold;
+}
+#login .con .loginlist .trust-list a {
+  margin-left: 5px;
+}
+#login .con .loginlist .trust-list a i {
+  font-size: 22px;
+}
+#login .con .loginlist .trust-list a:hover i {
+  color: #cb0025;
+}
